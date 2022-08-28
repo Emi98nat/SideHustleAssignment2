@@ -1,0 +1,224 @@
+/*Universal styles start*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+/*main body styles starts*/
+.container {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background: url(../images/restaurant.jpg) no-repeat center center/ cover;
+}
+/*header starts*/
+.header-caption {
+  position: absolute;
+  width: 830px;
+  height: 186px;
+  left: 309px;
+  top: 288px;
+}
+.heading-caption {
+  position: absolute;
+  width: 830px;
+  height: 75px;
+  left: 309px;
+  top: 288px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 59px;
+  line-height: 75px;
+
+  color: #ffffff;
+}
+.heading-caption span {
+  font-weight: 800;
+}
+.p-caption {
+  position: absolute;
+  width: 822px;
+  height: 62px;
+  left: 309px;
+  top: 412px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 31px;
+  text-align: center;
+
+  color: #ffffff;
+}
+/*header ends*/
+/*slider nav starts*/
+.slider {
+  position: absolute;
+  width: 1325px;
+  height: 40px;
+  left: 55px;
+  top: 481px;
+}
+.left {
+  position: absolute;
+  left: 3.82%;
+  right: 94.79%;
+  top: 48.1%;
+  bottom: 47.9%;
+  color: #ffffff;
+  background: none;
+  width: 20px;
+  height: 40px;
+  font-size: 40px;
+  cursor: pointer;
+}
+.right {
+  position: absolute;
+  left: 94.44%;
+  right: 4.17%;
+  top: 48.1%;
+  bottom: 47.9%;
+  color: #ffffff;
+  background: none;
+  width: 20px;
+  height: 40px;
+  font-size: 40px;
+  cursor: pointer;
+}
+.notV-Left {
+  color: transparent;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  left: 2.82%;
+  right: 94.79%;
+  top: 49.3%;
+  bottom: 47.9%;
+
+  width: 40px;
+  height: 20px;
+  font-size: 8px;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.notV-Right {
+  color: transparent;
+  background: transparent;
+  position: absolute;
+  left: 94.44%;
+  right: 4.17%;
+  top: 48.1%;
+  bottom: 47.9%;
+  z-index: 2;
+  width: 20px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+/*slider nav ends*/
+/*about btn starts*/
+.about {
+  position: absolute;
+  width: 250px;
+  height: 80px;
+  left: 460px;
+  top: 548px;
+  color: transparent;
+  background: transparent;
+  z-index: 2;
+  cursor: pointer;
+}
+.menu {
+  position: absolute;
+  width: 250px;
+  height: 80px;
+  left: 460px;
+  top: 548px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.menu-text {
+  position: absolute;
+  width: 88px;
+  height: 38px;
+  left: 533px;
+  top: 569px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 38px;
+  /* identical to box height */
+
+  color: #000000;
+}
+/*about btn ends*/
+/*menu button starts*/
+.men {
+  position: absolute;
+  z-index: 2;
+  width: 250px;
+  height: 80px;
+  left: 730px;
+  top: 548px;
+  color: transparent;
+  background: transparent;
+  cursor: pointer;
+}
+.rect7 {
+  position: absolute;
+  width: 250px;
+  height: 80px;
+  left: 730px;
+  top: 548px;
+
+  background: #ffffff;
+  border-radius: 2px;
+}
+.cart {
+  position: absolute;
+  width: 80px;
+  height: 38px;
+  left: 811px;
+  top: 569px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 38px;
+  /* identical to box height */
+
+  color: #000000;
+}
+/*menu button ends*/
+/*main body styles ends*/
+.alert{
+    background: hsla(0,0,0,0.5);
+    color: #cdcdcd;
+}
+.green{
+    color: green;
+}
+

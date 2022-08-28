@@ -1,0 +1,737 @@
+/* ************
+   Lower width
+   ************ */
+@media only screen and (max-width:1439px) and (min-width:1441px){
+    /* universal style starts */
+*{
+   position: absolute;
+   }
+/* general styles */
+/* main container styles start */
+.menu-container{
+position: relative;
+z-index: 2;
+ height: 100vh;
+width: 100%;
+}
+/* header styles start */
+.menu-header{
+    width: 1095px;
+    height: 111px;
+    left: 243px;
+    top: 43px;
+}
+.forward{
+    visibility: visible;/* hidden*/
+    left: 91.53%;
+    right: 7.08%;
+    top: 13.4%;
+    bottom: 84.6%;
+}
+.all-menu{
+    visibility: visible;/* hidden edit*/
+    width: 60px;
+    height: 19px;
+    left: 1247px;
+    top: 135px;
+    font-size: 15px;
+    line-height: 19px;
+}
+/* header styles end */
+/* menu page menu starts*/
+.menu-menu{
+    width: 134px;
+    height: 853.12px;
+    left: 56px;
+    top: 43px;
+}
+.menu-rect2{
+    width: 132px;
+    height: 852px;
+    left: 57px;
+    top: 43px;
+}
+.menu-rect5{
+    width: 81.01px;
+    height: 804px;
+    left: 107.99px;
+    top: 92.12px;
+    visibility: hidden;/* show while editing*/
+}
+/* .menu-rect2{} */
+.menu-menu-s{
+    width: 81px;
+    height: 102px;
+    left: 99.12px;
+    top: 58.65px;
+    font-size: 64px;
+    line-height: 102px;
+}
+.menu-menu-v{
+    left: 6.88%;
+    right: 90.35%;
+    top: 20.7%;    
+    height: 40px;
+     width: 40px;     
+}
+.menu-rect17{
+    width: 134px;
+    height: 122px;
+    left: 56px;
+    top: 302px;
+}
+/* shopping cart starts */
+.menu-menu-cart{
+    left: 6.88%;
+    right: 90.35%;
+    top: 49.6%;
+    width: 40px;
+    height: 40px;
+    bottom: 46.4%;
+}
+.menu-cart-path1{
+    left: 7.43%;
+    right: 92.01%;
+    top: 52.8%;
+    bottom: 46.4%;
+}
+.menu-cart-path2{
+    left: 8.82%;
+    right: 90.63%;
+    top: 52.8%;
+    bottom: 46.4%;
+}
+.menu-cart-path3{
+    left: 7.59%;
+    right: 90.72%;
+    top: 50.4%;
+    bottom: 48.6%;
+}
+.menu-cart-path4{
+    left: 6.88%;
+    right: 90.35%;
+    top: 49.6%;
+    bottom: 47.4%;
+}
+/* shopping cart ends */
+/* place icon starts */
+.menu-menu-place{
+    left: 7.01%;
+    right: 90.56%;
+    top: 64.9%;
+    bottom: 31.1%;
+    width: 40px;
+    height: 40px;
+}
+.menu-place-path1{
+    left: 7.8%;
+    right: 91.34%;
+    top: 65.8%;
+    bottom: 33.2%;
+}
+.menu-place-path2{
+    left: 7.36%;
+    right: 90.9%;
+    top: 65.3%;
+    bottom: 31.72%;
+}
+.menu-place-path3{
+    left: 7.01%;
+    right: 90.56%;
+    top: 64.9%;
+    bottom: 31.1%;
+}
+/* place icon ends */
+/* restaurant menu starts */
+.menu-menu-utensil{
+    left: 6.88%;
+    right: 90.35%;
+    top: 34.3%;
+    bottom: 61.7%;
+    width: 40px;
+    height: 40px;
+} 
+.menu-utensil-path1{
+    left: 7.01%;
+    right: 90.35%;
+    top: 34.3%;
+    bottom: 61.7%;
+    background: #dadada;
+}
+.menu-utensil-path2{
+    left: 6.88%;
+    right: 91.94%;
+    top: 34.38%;
+    bottom: 63.45%;
+    background: #dadada;
+}
+/* restarant menu ends */
+
+/* menu page exit start */
+.group7{
+    widows: 40px;
+    height: 40px;
+    left: 99px;
+    top: 790px;
+}
+.menu-exit{
+    left: 6.88%;
+    right: 90.35%;
+    top: 79%;
+    bottom: 17%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+/* menu page exit end */
+/* menu page menu ends */
+/* footer starts */
+.footer{
+    width: 250px;
+    height: 19px;
+    left: 244px;
+    top: 951px;
+}
+.copywright{
+    height: 19px;
+    left: 244px;
+    top: 951px;
+    font-size: 15px;
+    line-height: 19px;
+}
+/* footer ends */
+
+/* general styles end */
+/* *******************
+    menu page Styles
+   ******************* */
+.sushi-food{
+    width: 306px;
+    height: 63px;
+    left: 243px;
+    top: 43px;
+    font-size: 50px;
+    line-height: 63px;
+}
+
+ .menu-rect8{
+    width: 306px;
+    height: 5px;
+    left: 243px;
+    top: 106px;
+    
+}
+
+
+/* menu page items start */
+.menu-items{
+    width: 1095px;
+    height: 652px;
+    left: 243px;
+    top: 154px;
+}
+.menu-rect9{
+    width: 224px;
+    height: 275px;
+    top: 154px;
+    left: 243px;
+}
+.smashed-avo{
+    width: 130px;
+    height: 25px;
+    left: 290px;
+    top: 437px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.menu-rect13{
+    width: 224px;
+    height: 275px;
+    left: 244px;
+    top: 498px;
+}
+.tofu{
+    width: 161px;
+    height: 25px;
+    left: 278px;
+    top: 781px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.menu-rect10{
+    width: 224px;
+    height: 275px;
+    left: 533px;
+    top: 154px;
+}
+.yin{
+    width: 101px;
+    height: 25px;
+    left: 594px;
+    top: 437px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.menu-rect14{
+    width: 224px;
+    height: 275px;
+    left: 534px;
+    top: 498px;
+}
+.breakki{
+    width: 123px;
+    height: 25px;
+    left: 587px;
+    top: 781px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.menu-rect11{
+    width: 224px;
+    height: 275px;
+    left: 823px;
+    top: 154px;
+}
+.pancakes{
+    width: 91px;
+    height: 25px;
+    left: 889px;
+    top: 437px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.menu-rect15{
+    width: 224px;
+    height: 275px;
+    left: 824px;
+    top: 498px;
+}
+.roll{
+    width: 123px;
+    height: 25px;
+    left: 874px;
+    top: 781px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.menu-rect12{
+    width: 224px;
+    height: 275px;
+    left: 1113px;
+    top: 155px;
+}
+.huevos{
+    width: 176px;
+    height: 25px;
+    left: 1137px;
+    top: 437px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.menu-rect16{
+    width: 224px;
+    height: 275px;
+    left: 1114px;
+    top: 499px;
+}
+.burito{
+    width: 65px;
+    height: 25px;
+    left: 1192px;
+    top: 781px;
+    font-size: 20px;
+    line-height: 25px;
+}
+/* menu page items end */
+/* load button starts */
+.menu-rect18{
+    width: 194px;
+    height: 54px;
+    left: 676px;
+    top: 841px;
+    background: #000;
+    border-radius: 2px;
+}
+.load-more{
+    width: 118px;
+    height: 25px;
+    left: 714px;
+    top: 855px;
+    font-size: 20px;
+    line-height: 25px;
+}
+/* load button ends */
+/* *******************
+    menu page ends
+   ******************* */
+
+/* *******************
+    Cart page Styles
+   ******************* */
+.cart{
+    width: 135px;
+    height: 63px;
+    left: 243px;
+    top: 43px;
+    font-size: 50px;
+    line-height: 63px;
+}
+.cart-rect8{
+    width: 134px;
+    height: 5px;
+    left: 243px;
+    top: 106px;
+}
+ /*cart items start */ 
+.cart-items{
+  width: 608px;
+  height: 608px;
+  left: 244px;
+  top: 135px;  
+} 
+.cart-rect19{
+  width: 608px;
+  height: 608px;
+  left: 244px;
+  top: 135px;
+}
+/* smashed Avo cart*/
+.avo-ellipse5{
+   width: 90px;
+   height: 90px;
+   left: 264px;
+   top: 172px;
+}
+.smashedT{
+    width: 162px;
+    height: 31px;
+    left: 390px;
+    top: 182px;
+    font-size: 25px;
+    line-height: 31px;
+}
+.avoCost{
+   width: 65px;
+   height: 25px;
+   left: 390px;
+   top: 227px;
+   font-size: 20px;
+   line-height: 25px;
+    
+}
+.avoCost-decrement{
+    width: 11px;
+    height: 24px;
+    left: 636px;
+    top: 198px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.avoCost-rect21{
+    width: 46px;
+    height: 35px;
+    left: 660px;
+    top: 201px;
+}
+.avo-numT{
+    width: 12px;
+    height: 25px;
+    left: 677px;
+    top: 206px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.avoCost-increment{
+    width: 12px;
+    height: 25px;
+    left: 718px;
+    top: 206px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.avo-cancel{
+    left: 56.18%;
+    right: 42.43%;
+    top: 20.7%;
+    bottom: 77.3%;
+    width: 20px;
+    height: 20px;
+}
+/* yin & yang cart*/
+.yin-ellipse6{
+    width: 90px;
+    height: 90px;
+    left: 264px;
+    top: 318px;
+}
+.yinT{
+   width: 126px;
+   height: 31px;
+   left: 390px;
+   top: 321px;
+   font-size: 25px;
+   line-height: 31px;
+}
+.yinCost{
+    width: 65px;
+    height: 25px;
+    left: 390px;
+    top: 371px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.yinCost-decrement{
+    width: 11px;
+    height: 25px;
+    left: 634px;
+    top: 354px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.yin-rect22{
+    width: 46px;
+    height: 35px;
+    left: 658px;
+    top: 357px;
+}
+.yin-numT{
+    width: 12px;
+    height: 25px;
+    left: 675px;
+    top: 362px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.yinCost-increment{
+    width: 12px;
+    height: 25px;
+    left: 716px;
+    top: 362px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.yin-cancel{
+    left: 56.18%;
+    right: 42.43%;
+    top: 36.3%;
+    bottom: 61.7%;
+    width: 20px;
+    height: 20px;
+}
+/* pancakes cart*/
+.pancake-ellipse7{
+    width: 90px;
+    height: 90px;
+    left: 264px;
+    top: 464px;
+}
+.pancakeT{
+    width: 133px;
+    height: 31px;
+    left: 390px;
+    top: 472px;
+    font-size: 25px;
+    line-height: 31px;
+}   
+.pancakeCost{
+    width: 65px;
+    height: 25px;
+    left: 390px;
+    top: 520px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.pancakeCost-decrement{
+    width: 11px;
+    height: 24px;
+    left: 634px;
+    top: 491px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.pancake-rect23{
+    width: 46px;
+    height: 35px;
+    left: 658px;
+    top: 494px;
+}
+.pancake-numT{
+    width: 12px;
+    height: 25px;
+    left: 675px;
+    top: 499px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.pancakeCost-increment{
+    width: 12px;
+    height: 25px;
+    left: 716px;
+    top: 499px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.pancake-cancel{
+    left: 56.18%;
+    right: 42.43%;
+    top: 50%;
+    bottom: 48%;
+    width: 20px;
+    height: 20px;
+}
+/* rancheros(tofu) cart*/
+.tofu-ellipse8{
+    width: 90px;
+    height: 90px;
+    left: 264px;
+    top: 610px;
+}
+.tofuT{
+    width: 201px;
+    height: 31px;/* h1 */
+    left: 390px;
+    top: 625px;
+    font-size: 25px;/* f2 */
+    line-height: 31px;/* h1 */
+}   
+.tofuCost{
+    width: 65px;
+    height: 25px;/* h */
+    left: 390px;
+    top: 676px;
+    font-size: 20px;/* f1 */
+    line-height: 25px;/* h */
+}
+.tofuCost-decrement{
+    width: 11px;/* w2 */
+    height: 24px;/* h1 */
+    left: 634px;
+    top: 636px;
+    font-size: 20px;/* f1 */
+    line-height: 25px;/* h */
+}
+.tofu-rect24{
+    width: 46px;
+    height: 35px;
+    left: 658px;
+    top: 641px;
+}
+.tofu-numT{
+    width: 12px;/* w1 */
+    height: 25px;/* h */
+    left: 675px;
+    top: 646px;/* t2 */
+    font-size: 20px;/* f1 */
+    line-height: 25px;/* h */
+}
+.tofuCost-increment{
+    width: 12px;/* w1 */
+    height: 25px;/* h */
+    left: 716px;
+    top: 646px;/* t2 */
+    font-size: 20px;/* f1 */
+    line-height: 25px;/* h */
+}
+.tofu-cancel{
+    left: 56.18%;
+    right: 42.43%;
+    top: 64.9%;
+    bottom: 33.1%;
+    width: 20px;/* w3 */
+    height: 20px;/* w3*/
+}
+/* cart items end */
+
+/* side bar starts */
+.sideBar-cart{
+    width: 443px;/* w */
+    height: 575px;
+    left: 893px;/* l1 */
+    top: 135px;/* t1 */
+}
+/* subtotal box */
+.cart-rect20{
+   width: 443px;/* w */
+   height: 286px;
+   left: 893px;/* l1 */
+   top: 135px;/* t1 */
+}
+.your-subtotalT,.subtotalT,.total-priceT,.cart-rect25,.promo-codeT,.cart-rect26,.cart-rect27{
+    left: 933px;
+}
+.your-subtotalT,.promo-codeT{
+    height: 50px;
+    line-height: 50px;
+}
+.your-subtotalT{
+    width: 249px;
+    top: 157px;
+    font-size: 40px;/* f */
+}
+.subtotalT, .total-priceT, .confirmT, .enterPromo-code, .applyT{
+    height: 38px;
+    font-size: 30px;
+    line-height: 38px;
+}
+.subtotalT,.total-priceT{
+    top: 247px;
+}
+.subtotalT{
+    width: 118px;
+}
+.total-priceT{
+    width: 97px;
+    left: 1080px;
+}
+.cart-rect25,.cart-rect26,.cart-rect27{
+    height: 78px;
+}
+.cart-rect25{
+    width: 365px;
+    top: 313px;
+}
+.confirmT{
+    width: 197px;
+    left: 1017px;
+    top: 333px;
+}
+/* promo code box */
+.cart-rect28{
+    /*seems to have a focus onload*/
+    width: 443px;
+    height: 326px;
+    left: 893px;
+    top: 417px;
+}
+.promo-codeT{
+    width: 227px;
+    top: 449px;
+    font-size: 40px;/* f */
+}
+.cart-rect26{
+    width: 365px;
+    top: 524px;
+}
+.enterPromo-code{
+    width: 236px;
+    left: 953px;
+    top: 544px;
+}
+.cart-rect27{
+    width: 166px;
+    top: 632px;
+}
+.applyT{
+    width: 82px;
+    left: 975px;
+    top: 652px;
+}
+/* side bar ends */
+
+/* *******************
+    Cart page ends
+   ******************* */
+/* main container styles end */
+}

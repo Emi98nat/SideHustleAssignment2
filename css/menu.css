@@ -1,0 +1,1045 @@
+/* universal style starts */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Mulish';
+    font-style: normal;
+    outline: none;
+}
+/* general styles */
+body{
+    height: 100vh;
+width: 100vw;
+border-radius: 0px;
+position: fixed;
+z-index: -2;
+background: transparent;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    border: 1px solid yellow;
+    border-radius: 5px;
+}
+a:active{
+    color: greenyellow;
+}
+
+/* main container styles start */
+.menu-container{
+position: relative;
+z-index: 2;
+ height: 1000px;
+width: 1440px;
+border-radius: 0px;
+background: white;
+}
+/* header styles start */
+.menu-header{
+    position: absolute;
+    width: 1095px;
+    height: 111px;
+    left: 243px;
+    top: 43px;
+}
+.forward{
+    position: absolute;
+    visibility: hidden;/* visibility edit */
+    left: 91.53%;
+    right: 7.08%;
+    top: 13.4%;
+    bottom: 84.6%;
+    background: rgba(0,0,0,0.54);
+    font-size: 100%;
+}
+.all-menu{
+    position: absolute;
+    visibility: hidden;/* visibility edit*/
+    width: 60px;
+    height: 19px;
+    left: 1247px;
+    top: 135px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000;
+}
+/* header styles end */
+/* menu page menu starts*/
+.menu-menu{
+    position: absolute;
+    width: 134px;
+    height: 853.12px;
+    left: 56px;
+    top: 43px;
+}
+.menu-rect2{
+    position: absolute;
+    width: 132px;
+    height: 852px;
+    left: 57px;
+    top: 43px;
+    background: #0c0B0B;
+    border-radius: 24px;
+}
+.menu-rect5{
+    position: absolute;
+    width: 81.01px;
+    height: 804px;
+    left: 107.99px;
+    top: 92.12px;
+    background: #0C0B0B;
+    opacity: 0.7;
+    filter: blur(60px);
+    border-radius: 24px;
+    z-index: 1;
+    visibility: hidden;
+}
+/* .menu-rect2{} */
+.menu-menu-s{
+    position: absolute;
+    width: 81px;
+    height: 102px;
+    left: 99.12px;
+    top: 58.65px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 102px;
+    color: #f1D5BB;
+    text-decoration: transparent;
+}
+.menu-menu-v{
+    position: absolute;
+    left: 6.88%;
+    right: 90.35%;
+    top: 20.7%;
+    background: #000;
+    height: 40px;
+     width: 40px;
+     cursor: pointer;
+}
+.menu-rect17{
+    position: absolute;
+    width: 134px;
+    height: 122px;
+    left: 56px;
+    top: 302px;
+    background: #f1d5bb;
+}
+/* shopping cart starts */
+.menu-menu-cart{
+    position: absolute;
+    left: 6.88%;
+    right: 90.35%;
+    top: 49.6%;
+    width: 40px;
+    height: 40px;
+    bottom: 46.4%;
+    background: #000;
+}
+.menu-cart-path1{
+    position: absolute;
+    left: 7.43%;
+    right: 92.01%;
+    top: 52.8%;
+    bottom: 46.4%;
+    background: #dadada;
+}
+.menu-cart-path2{
+    position: absolute;
+    left: 8.82%;
+    right: 90.63%;
+    top: 52.8%;
+    bottom: 46.4%;
+    background: #dadada;
+}
+.menu-cart-path3{
+    position: absolute;
+    left: 7.59%;
+    right: 90.72%;
+    top: 50.4%;
+    bottom: 48.6%;
+    background: #dadada;
+}
+.menu-cart-path4{
+    position: absolute;
+    left: 6.88%;
+    right: 90.35%;
+    top: 49.6%;
+    bottom: 47.4%;
+    background: #dadada;
+}
+/* shopping cart ends */
+/* place icon starts */
+.menu-menu-place{
+    position: absolute;
+    left: 7.01%;
+    right: 90.56%;
+    top: 64.9%;
+    bottom: 31.1%;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+}
+.menu-place-path1{
+    position: absolute;
+    left: 7.8%;
+    right: 91.34%;
+    top: 65.8%;
+    bottom: 33.2%;
+    background: #dadada;
+}
+.menu-place-path2{
+    position: absolute;
+    left: 7.36%;
+    right: 90.9%;
+    top: 65.3%;
+    bottom: 31.72%;
+    background: #dadada;
+}
+.menu-place-path3{
+    position: absolute;
+    left: 7.01%;
+    right: 90.56%;
+    top: 64.9%;
+    bottom: 31.1%;
+    background: #dadada;
+}
+/* place icon ends */
+/* restaurant menu starts */
+.menu-menu-utensil{
+    position: absolute;
+    left: 6.88%;
+    right: 90.35%;
+    top: 34.3%;
+    bottom: 61.7%;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+} 
+.menu-utensil-path1{
+    position: absolute;
+    left: 7.01%;
+    right: 90.35%;
+    top: 34.3%;
+    bottom: 61.7%;
+    background: #dadada;
+}
+.menu-utensil-path2{
+    position: absolute;
+    left: 6.88%;
+    right: 91.94%;
+    top: 34.38%;
+    bottom: 63.45%;
+    background: #dadada;
+}
+/* restarant menu ends */
+
+/* menu page exit start */
+.group7{
+    position: absolute;
+    widows: 40px;
+    height: 40px;
+    left: 99px;
+    top: 790px;
+}
+.menu-exit{
+    position: absolute;
+    left: 6.88%;
+    right: 90.35%;
+    top: 79%;
+    bottom: 17%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+/* menu page exit end */
+/* menu page menu ends */
+/* footer starts */
+.footer{
+    position: absolute;
+    width: 250px;
+    height: 19px;
+    left: 244px;
+    top: 951px;
+}
+.copywright{
+    position: absolute;
+    height: 19px;
+    left: 244px;
+    top: 951px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000;
+}
+/* footer ends */
+
+/* general styles end */
+/* *******************
+    menu page Styles
+   ******************* */
+.sushi-food{
+    position: absolute;
+    width: 306px;
+    height: 63px;
+    left: 243px;
+    top: 43px;
+    font-family: 'Mulish',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 63px;
+    color: #000;
+    text-decoration: transparent;
+}
+
+ .menu-rect8{
+    position: absolute;
+    width: 306px;
+    height: 5px;
+    left: 243px;
+    top: 106px;
+    background: #f1d5bb;
+}
+
+
+/* menu page items start */
+.menu-items{
+    position: absolute;
+    width: 1095px;
+    height: 652px;
+    left: 243px;
+    top: 154px;
+}
+.menu-rect9{
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    top: 154px;
+    left: 243px;
+    background: url('../images/smashedAvo.png');
+    background-size: cover;
+    border-radius: 2px;
+}
+.smashed-avo{
+    position: absolute;
+    width: 130px;
+    height: 25px;
+    left: 290px;
+    top: 437px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: black;
+}
+.menu-rect13{
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    left: 244px;
+    top: 498px;
+    background: url("../images/racheros.png") no-repeat center center/ cover;
+    border-radius: 2px;
+}
+.tofu{
+    position: absolute;
+    width: 161px;
+    height: 25px;
+    left: 278px;
+    top: 781px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.menu-rect10{
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    left: 533px;
+    top: 154px;
+    
+    background: url('../images/yin&yang.png')no-repeat center center/ cover;
+    border-radius: 2px;
+}
+.yin{
+    position: absolute;
+    width: 101px;
+    height: 25px;
+    left: 594px;
+    top: 437px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.menu-rect14{
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    left: 534px;
+    top: 498px;
+    background: url("../images/breakkiroll1.png")no-repeat center center/ cover;
+    border-radius: 2px;
+}
+.breakki{
+    position: absolute;
+    width: 123px;
+    height: 25px;
+    left: 587px;
+    top: 781px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.menu-rect11{
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    left: 823px;
+    top: 154px;
+    background: url("../images/pancakes.png")no-repeat center center/ cover;
+    border-radius: 2px;
+}
+.pancakes{
+    position: absolute;
+    width: 91px;
+    height: 25px;
+    left: 889px;
+    top: 437px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.menu-rect15{
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    left: 824px;
+    top: 498px;
+    background: url('../images/breakkiRoll2.png')no-repeat center center/ cover;
+    border-radius: 2px;
+}
+.roll{
+    position: absolute;
+    width: 123px;
+    height: 25px;
+    left: 874px;
+    top: 781px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.menu-rect12{
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    left: 1113px;
+    top: 155px;
+    background: url('../images/HuavasRancheros.png')no-repeat center center/ cover;
+    border-radius: 2px;
+}
+.huevos{
+    position: absolute;
+    width: 176px;
+    height: 25px;
+    left: 1137px;
+    top: 437px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.menu-rect16{
+    position: absolute;
+    width: 224px;
+    height: 275px;
+    left: 1114px;
+    top: 499px;
+    background: url('../images/burito.png')no-repeat center center/ cover;
+    border-radius: 2px;
+}
+.burito{
+    position: absolute;
+    width: 65px;
+    height: 25px;
+    left: 1192px;
+    top: 781px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+/* menu page items end */
+/* load button starts */
+.menu-rect18{
+    position: absolute;
+    width: 194px;
+    height: 54px;
+    left: 676px;
+    top: 841px;
+    background: #000;
+    border-radius: 2px;
+}
+.load-more{
+    position: absolute;
+    width: 118px;
+    height: 25px;
+    left: 714px;
+    top: 855px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+}
+/* load button ends */
+/* *******************
+    menu page ends
+   ******************* */
+
+/* *******************
+    Cart page Styles
+   ******************* */
+.cart{
+    position: absolute;
+    width: 135px;
+    height: 63px;
+    left: 243px;
+    top: 43px;
+    
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 63px;
+    color: #000;
+}
+.cart-rect8{
+    position: absolute;
+    width: 134px;
+    height: 5px;
+    left: 243px;
+    top: 106px;
+    background: #F1D5BB;
+}
+ /*cart items start */ 
+.cart-items{
+  position: absolute;
+  width: 608px;
+  height: 608px;
+  left: 244px;
+  top: 135px;  
+} 
+.cart-rect19{
+  position: absolute;
+  width: 608px;
+  height: 608px;
+  left: 244px;
+  top: 135px;
+  background: #f1d5bb;
+  border-radius: 3px;  
+}
+/* smashed Avo cart*/
+.avo-ellipse5{
+   position: absolute;
+   width: 90px;
+   height: 90px;
+   left: 264px;
+   top: 172px;
+   background: url("../images/avoEllipse.png")no-repeat center center/ cover; 
+}
+.smashedT{
+    position: absolute;
+    width: 162px;
+    height: 31px;
+    left: 390px;
+    top: 182px;
+    
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    color: #000;
+}
+.avoCost{
+   position: absolute;
+   width: 65px;
+   height: 25px;
+   left: 390px;
+   top: 227px;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 25px;
+   color: #000;
+    
+}
+.avoCost-decrement{
+    position: absolute;
+    width: 11px;
+    height: 24px;
+    left: 636px;
+    top: 198px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.avoCost-rect21{
+    position: absolute;
+    width: 46px;
+    height: 35px;
+    left: 660px;
+    top: 201px;
+    background: #fff;
+}
+.avo-numT{
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 677px;
+    top: 206px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.avoCost-increment{
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 718px;
+    top: 206px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.avo-cancel{
+    position: absolute;
+    left: 56.18%;
+    right: 42.43%;
+    top: 20.7%;
+    bottom: 77.3%;
+    width: 20px;
+    height: 20px;
+}
+/* yin & yang cart*/
+.yin-ellipse6{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 264px;
+    top: 318px;
+    background: url("../images/yinEllipse.png")no-repeat center center/ cover;
+}
+.yinT{
+    position: absolute;
+   width: 126px;
+   height: 31px;
+   left: 390px;
+   top: 321px;
+   font-weight: 600;
+   font-size: 25px;
+   line-height: 31px;
+   color: #000; 
+}
+.yinCost{
+    position: absolute;
+    width: 65px;
+    height: 25px;
+    left: 390px;
+    top: 371px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.yinCost-decrement{
+    position: absolute;
+    width: 11px;
+    height: 25px;
+    left: 634px;
+    top: 354px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.yin-rect22{
+    position: absolute;
+    width: 46px;
+    height: 35px;
+    left: 658px;
+    top: 357px;
+    background: #fff;
+}
+.yin-numT{
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 675px;
+    top: 362px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.yinCost-increment{
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 716px;
+    top: 362px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.yin-cancel{
+    position: absolute;
+    left: 56.18%;
+    right: 42.43%;
+    top: 36.3%;
+    bottom: 61.7%;
+    width: 20px;
+    height: 20px;
+}
+/* pancakes cart*/
+.pancake-ellipse7{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 264px;
+    top: 464px;
+    background: url('../images/pancakesEllipse.png')no-repeat center center/ cover;
+}
+.pancakeT{
+    position: absolute;
+    width: 133px;
+    height: 31px;
+    left: 390px;
+    top: 472px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    color: #000;
+}   
+.pancakeCost{
+    position: absolute;
+    width: 65px;
+    height: 25px;
+    left: 390px;
+    top: 520px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.pancakeCost-decrement{
+    position: absolute;
+    width: 11px;
+    height: 24px;
+    left: 634px;
+    top: 491px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.pancake-rect23{
+    position: absolute;
+    width: 46px;
+    height: 35px;
+    left: 658px;
+    top: 494px;
+    background: #fff;
+}
+.pancake-numT{
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 675px;
+    top: 499px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.pancakeCost-increment{
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 716px;
+    top: 499px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.pancake-cancel{
+    position: absolute;
+    left: 56.18%;
+    right: 42.43%;
+    top: 50%;
+    bottom: 48%;
+    width: 20px;
+    height: 20px;
+}
+/* rancheros(tofu) cart*/
+.tofu-ellipse8{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 264px;
+    top: 610px;
+    background: url('../images/tofuEllipse.png')no-repeat center center/ cover;
+}
+.tofuT{
+    position: absolute;
+    width: 201px;
+    height: 31px;
+    left: 390px;
+    top: 625px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    color: #000;
+}   
+.tofuCost{
+    position: absolute;
+    width: 65px;
+    height: 25px;
+    left: 390px;
+    top: 676px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.tofuCost-decrement{
+    position: absolute;
+    width: 11px;
+    height: 24px;
+    left: 634px;
+    top: 636px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.tofu-rect24{
+    position: absolute;
+    width: 46px;
+    height: 35px;
+    left: 658px;
+    top: 641px;
+    background: #fff;
+}
+.tofu-numT{
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 675px;
+    top: 646px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.tofuCost-increment{
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: 716px;
+    top: 646px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.tofu-cancel{
+    position: absolute;
+    left: 56.18%;
+    right: 42.43%;
+    top: 64.9%;
+    bottom: 33.1%;
+    width: 20px;
+    height: 20px;
+}
+/* cart items end */
+
+/* side bar starts */
+.sideBar-cart{
+    position: absolute;
+    width: 443px;
+    height: 575px;
+    left: 893px;
+    top: 135px;
+}
+/* subtotal box */
+.cart-rect20{
+   position: absolute; 
+   width: 443px;
+   height: 286px;
+   left: 893px;
+   top: 135px;
+   background: #f1d5bb;
+   border-radius: 3px;
+}
+.your-subtotalT{
+    position: absolute;
+    width: 249px;
+    height: 50px;
+    left: 933px;
+    top: 157px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000;
+}
+.subtotalT{
+    position: absolute;
+    width: 118px;
+    height: 38px;
+    left: 933px;
+    top: 247px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    color: rgba(0,0,0,0.8);
+}
+.total-priceT{
+    position: absolute;
+    width: 97px;
+    height: 38px;
+    left: 1080px;
+    top: 247px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    color: rgba(0,0,0,0.8);
+}
+.cart-rect25{
+    position: absolute;
+    width: 365px;
+    height: 78px;
+    left: 933px;
+    top: 313px;
+    background: #000;
+}
+.confirmT{
+    position: absolute;
+    width: 197px;
+    height: 38px;
+    left: 1017px;
+    top: 333px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    color: #fff;
+}
+/* promo code box */
+.cart-rect28{
+    /*seems to have a focus onload*/
+    position: absolute;
+    width: 443px;
+    height: 326px;
+    left: 893px;
+    top: 417px;
+    background: #fff;
+    border: 1px solid #f1d5bb;
+    border-radius: 3px;
+}
+.promo-codeT{
+    position: absolute;
+    width: 227px;
+    height: 50px;
+    left: 933px;
+    top: 449px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000;
+}
+.cart-rect26{
+    position: absolute;
+    width: 365px;
+    height: 78px;
+    left: 933px;
+    top: 524px;
+    background: #fff;
+    border: 1px solid #f1d5bb;
+}
+.enterPromo-code{
+    position: absolute;
+    width: 236px;
+    height: 38px;
+    left: 953px;
+    top: 544px;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.cart-rect27{
+    position: absolute;
+    width: 166px;
+    height: 78px;
+    left: 933px;
+    top: 632px;
+    background: #000;
+}
+.applyT{
+    position: absolute;
+    width: 82px;
+    height: 38px;
+    left: 975px;
+    top: 652px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    color: #fff;
+}
+/* side bar ends */
+
+/* *******************
+    Cart page ends
+   ******************* */
+   
+/* passive styles start */
+/* *******************
+    js or json Styles
+   ******************* */
+
+
+
+/* ************************
+    js or json styles ends
+   ************************ */
+.transparent{
+     position: absolute;
+     z-index: 2;
+    background: transparent;
+    color: transparent;
+    cursor: pointer;
+}
+.alert{
+    background: hsla(0,0,0,0.5);
+    color: #cdcdcd;
+}
+.green{
+    color: green;
+}
+/* passive styles end */
+/* main container styles end */
